@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="TestClasses.OverviewPageTest">
+        <methods>
+          <include name="EventsModule"/>
+          <include name="DisplaySuperad"/>
+          <include name="selectingCalender"/>
+          <include name="displayingCards"/>
+          <include name="TotalCards"/>
+          <include name="startBrowser"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- TestClasses.OverviewPageTest -->
+      <class name="TestClasses.EventPageTest">
+        <methods>
+          <include name="DisplayEventsCount"/>
+          <include name="EditingEvents"/>
+          <include name="inactivatingEvents"/>
+          <include name="EventsDisplaying"/>
+          <include name="AddingEvent"/>
+          <include name="startBrowser"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- TestClasses.EventPageTest -->
+      <class name="TestClasses.UsersPageTest">
+        <methods>
+          <include name="AddingHouseFilters"/>
+          <include name="AddingLocationFilters"/>
+          <include name="EventsMod"/>
+          <include name="AddPrivileges"/>
+          <include name="startBrowser"/>
+          <include name="searchingAssociate"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- TestClasses.UsersPageTest -->
+      <class name="TestClasses.ProfilePageTest">
+        <methods>
+          <include name="ProfileModuleEntering"/>
+          <include name="updatingImage"/>
+          <include name="startBrowser"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- TestClasses.ProfilePageTest -->
+      <class name="TestClasses.HousePageTest">
+        <methods>
+          <include name="UserMod"/>
+          <include name="ChangingYearInVayu"/>
+          <include name="SearchingAssociate"/>
+          <include name="DownloadingData"/>
+          <include name="PaginationTest"/>
+          <include name="GivingPriv"/>
+          <include name="startBrowser"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- TestClasses.HousePageTest -->
+      <class name="TestClasses.ChatPageTest">
+        <methods>
+          <include name="ChatModEntering"/>
+          <include name="chats"/>
+          <include name="startBrowser"/>
+          <include name="MsgSending"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- TestClasses.ChatPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
